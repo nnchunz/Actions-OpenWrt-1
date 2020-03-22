@@ -23,8 +23,8 @@ mkdir -p package/mine/parted && cp -i package/mine/luci-app-diskman/Parted.Makef
 # KPR plus+
 git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/mine/luci-app-koolproxyR
 
-# Server酱
-git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-app-serverchan
+# OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/mine/OpenClash
 
 # FileBrowser
 git clone https://github.com/project-openwrt/FileBrowser.git package/mine/FileBrowser
