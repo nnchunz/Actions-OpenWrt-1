@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.199.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 
 # 更改默认主题为Argon
 # sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' package/feeds/luci/luci/Makefile
@@ -21,7 +21,7 @@ git clone https://github.com/lisaac/luci-app-diskman.git package/mine/luci-app-d
 mkdir -p package/mine/parted && cp -i package/mine/luci-app-diskman/Parted.Makefile package/mine/parted/Makefile
 
 # KPR plus+
-git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/mine/luci-app-koolproxyR
+# git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/mine/luci-app-koolproxyR
 
 # OpenClash
 git clone https://github.com/vernesong/OpenClash.git package/mine/OpenClash
@@ -42,7 +42,7 @@ git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git pa
 # git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/mine/luci-app-usb3disable
 
 # 管控上网行为
-git clone https://github.com/destan19/OpenAppFilter.git package/mine/OpenAppFilter
+# git clone https://github.com/destan19/OpenAppFilter.git package/mine/OpenAppFilter
 
 # Rclone-OpenWrt
-git clone https://github.com/ElonH/Rclone-OpenWrt.git package/mine/Rclone-OpenWrt
+# git clone https://github.com/ElonH/Rclone-OpenWrt.git package/mine/Rclone-OpenWrt
